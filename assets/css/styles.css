@@ -1,11 +1,26 @@
+.navbar {
+    border-top-left-radius: 1em;
+    border-top: 0.05em solid #eeeeee;
+    border-left: 0.05em solid #eeeeee;
+}
+
+#btnCtrl {
+    display: none;
+}
+#btnCtrl:checked + label > div {
+    transform: rotate(-15deg);
+}
+
 .navbar-toggler {
     border: none;
 }
 .navbar-brand {
     text-transform: uppercase;
-    margin-left: 1rem;
+    margin-left: 0.5em;
 }
 .navigation-clean .navbar-brand {
     font-weight: 200;
+    font-size: 1em;
+    letter-spacing: 0.15em;
     vertical-align: bottom;
 }
