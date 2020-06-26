@@ -1,26 +1,57 @@
-.navbar {
-    border-top-left-radius: 1em;
-    border-top: 0.05em solid #eeeeee;
-    border-left: 0.05em solid #eeeeee;
+body {
+  background-color: #1f1b33;
+}
+.phone-start {
+  height: 948px;
+  max-height: 948px;
+  min-height: 948px;
+  width: 440px;
+  border: 0.05em solid #eeeeee;
+  border-radius: 1.5em;
+  background-color: #ffffff;
 }
 
-#btnCtrl {
-    display: none;
+.phone-02 {
+  height: 948px;
+  max-height: 948px;
+  min-height: 948px;
+  width: 440px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  border: 0.05em solid #eeeeee;
+  border-radius: 1.5em;
+  background-color: yellow;
 }
-#btnCtrl:checked + label > div {
-    transform: rotate(-15deg);
+
+/* .navbar {
+  border-radius: 1em; 
+  border: 0.05em solid #eeeeee; 
+} */
+
+#btnCtrl {
+  display: none;
+}
+#btnCtrl:checked + label > section.phone-start {
+  /* transform: rotate(-15deg) translateX(100px); */
+  transform-origin: left;
+  transform: translate(300px, 20px) rotate(-10deg);
 }
 
 .navbar-toggler {
-    border: none;
+  border: none;
 }
 .navbar-brand {
-    text-transform: uppercase;
-    margin-left: 0.5em;
+  text-transform: uppercase;
+  margin-left: 0.5em;
 }
+.navbar-nav {
+  color: #ffffff;
+}
+
 .navigation-clean .navbar-brand {
-    font-weight: 200;
-    font-size: 1em;
-    letter-spacing: 0.15em;
-    vertical-align: bottom;
+  font-weight: 200;
+  font-size: 1em;
+  letter-spacing: 0.15em;
+  vertical-align: bottom;
 }
