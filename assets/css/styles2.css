@@ -1,8 +1,9 @@
 @font-face {
-	font-family: "Avenir";
-	src: url("./fonts/avenir_ff/AvenirLTStd-Boman.otf") format("opentype");
+	font-family: 'Avenir';
+	src: url('fonts/avenir_ff/AvenirLTStd-Roman.otf') format('opentype');
 }
 /* 
+file:///Users/admin/__projects/code-challenge/proxify/prox5/assets/css/fonts/avenir_ff/AvenirLTStd-Roman.otf
 url("./fonts/avenir_ff/AvenirLTStd-Black.otf") format("opentype"),
 url("./fonts/avenir_ff/AvenirLTStd-Book.otf") format("opentype"), 
 */
