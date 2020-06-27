@@ -1,8 +1,8 @@
 @font-face {
 	font-family: "Avenir";
-	src: url("assets/css/fonts/avenir_ff/AvenirLTStd-Black.otf") format("opentype"),
-		url("assets/css/fonts/avenir_ff/AvenirLTStd-Book.otf") format("opentype"),
-		url("assets/css/fonts/avenir_ff/AvenirLTStd-Boman.otf") format("opentype");
+	src: url("./fonts/avenir_ff/AvenirLTStd-Black.otf") format("opentype"),
+		url("./fonts/avenir_ff/AvenirLTStd-Book.otf") format("opentype"),
+		url("./fonts/avenir_ff/AvenirLTStd-Boman.otf") format("opentype");
 }
 
 body {
@@ -97,6 +97,7 @@ div.phone-01 {
 	width: 95px;
 	color: #9f9fa0;
 	font-family: Avenir;
+	white-space: nowrap;
 	font-size: 24px;
 	letter-spacing: 5px;
 	line-height: 33px;
@@ -129,6 +130,7 @@ div.phone-01 {
 	width: 83px;
 	color: #ffffff;
 	font-family: Avenir;
+	white-space: nowrap;
 	font-size: 28px;
 	/* font-weight: 900; */
 	font-weight: 600;
@@ -170,6 +172,7 @@ div.phone-01 {
 	width: 41px;
 	color: #fc8074;
 	font-family: Avenir;
+	white-space: nowrap;
 	font-size: 20px;
 	letter-spacing: -0.5px;
 	line-height: 27px;
@@ -188,6 +191,7 @@ div.phone-01 {
 	width: 84px;
 	color: #ffffff;
 	font-family: Avenir;
+	white-space: nowrap;
 	font-size: 20px;
 	letter-spacing: 0;
 	line-height: 27px;
@@ -198,6 +202,7 @@ div.phone-01 {
 	width: 93px;
 	color: #ffffff;
 	font-family: Avenir;
+	white-space: nowrap;
 	font-size: 20px;
 	letter-spacing: 0;
 	line-height: 27px;
@@ -208,6 +213,7 @@ div.phone-01 {
 	width: 108px;
 	color: #ffffff;
 	font-family: Avenir;
+	white-space: nowrap;
 	font-size: 20px;
 	letter-spacing: 0;
 	line-height: 27px;
@@ -221,6 +227,7 @@ div.phone-01 {
 	width: 80px;
 	color: #ffffff;
 	font-family: Avenir;
+	white-space: nowrap;
 	font-size: 20px;
 	letter-spacing: 0;
 	line-height: 27px;
