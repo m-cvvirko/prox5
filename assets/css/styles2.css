@@ -1,8 +1,8 @@
 @font-face {
 	font-family: "Avenir";
-	src: url("css/fonts/avenir_ff/AvenirLTStd-Black.otf") format("opentype"),
-		url("css/fonts/avenir_ff/AvenirLTStd-Book.otf") format("opentype"),
-		url("css/fonts/avenir_ff/AvenirLTStd-Boman.otf") format("opentype");
+	src: url("assets/css/fonts/avenir_ff/AvenirLTStd-Black.otf") format("opentype"),
+		url("assets/css/fonts/avenir_ff/AvenirLTStd-Book.otf") format("opentype"),
+		url("assets/css/fonts/avenir_ff/AvenirLTStd-Boman.otf") format("opentype");
 }
 
 body {
