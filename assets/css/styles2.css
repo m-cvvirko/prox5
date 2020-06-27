@@ -1,5 +1,16 @@
 body {
-	background-color: #000000;
+	background-color: #ffffff;
+}
+.bg-mask {
+	height: 948px;
+	width: 463px;
+	border-radius: 48px 0 0 0;
+	background-color: #1f1b33;
+	border: 0.02em solid #eeeeee;
+}
+section {
+	margin: 0;
+	padding: 0;
 }
 
 .phone-01 {
@@ -12,10 +23,10 @@ body {
 	/* border: 0.05em solid #eeeeee; */
 }
 
-.phone-01 > div {
+div.phone-01 {
 	height: 948px;
 	margin: 0;
-	margin-right: 23px;
+	/* margin-right: 23px; */
 	/* border: 0.05em solid yellow; */
 }
 
@@ -91,3 +102,120 @@ body {
 }
 
 /* https://stackoverflow.com/questions/4502633/how-to-affect-other-elements-when-one-element-is-hovered */
+
+.second {
+	position: relative;
+	width: 100wh;
+	top: 122px;
+	left: 27px;
+}
+
+.hay-avatar {
+	height: 38px;
+	width: 83px;
+	position: inherit;
+	left: 58px;
+}
+
+.viktor {
+	height: 38px;
+	width: 83px;
+	color: #ffffff;
+	font-family: Avenir;
+	font-size: 28px;
+	/* font-weight: 900; */
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 38px;
+}
+
+.menu {
+	height: 454px;
+	width: 176px;
+}
+
+.divider {
+	/* position: relative;
+	left: 0;
+	top: 61.5px; */
+	box-sizing: border-box;
+	height: 1px;
+	width: 175.5px;
+	border: 1px solid #84818e;
+}
+
+.avatar-icon {
+	height: 21px;
+	width: 19px;
+}
+
+.menu-item-1 {
+	height: 21px;
+	width: 19px;
+	background-color: #84818e;
+	color: #84818e;
+	position: relative;
+	left: 47px;
+}
+
+.start {
+	height: 27px;
+	width: 41px;
+	color: #fc8074;
+	font-family: Avenir;
+	font-size: 20px;
+	letter-spacing: -0.5px;
+	line-height: 27px;
+}
+
+.selected-item-bg {
+	height: 51px;
+	width: 175px;
+	opacity: 0.2;
+	border-radius: 15.5px;
+	background-color: #fc8074;
+}
+
+.your-cart {
+	height: 27px;
+	width: 84px;
+	color: #ffffff;
+	font-family: Avenir;
+	font-size: 20px;
+	letter-spacing: 0;
+	line-height: 27px;
+}
+
+.favourites {
+	height: 27px;
+	width: 93px;
+	color: #ffffff;
+	font-family: Avenir;
+	font-size: 20px;
+	letter-spacing: 0;
+	line-height: 27px;
+}
+
+.your-orders {
+	height: 27px;
+	width: 108px;
+	color: #ffffff;
+	font-family: Avenir;
+	font-size: 20px;
+	letter-spacing: 0;
+	line-height: 27px;
+}
+
+.sign-out {
+	/* position: relative;
+	left: 30px;
+	top: 59.5px; */
+	height: 27px;
+	width: 80px;
+	color: #ffffff;
+	font-family: Avenir;
+	font-size: 20px;
+	letter-spacing: 0;
+	line-height: 27px;
+	margin-left: 30px;
+}
