@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: 'Avenir';
-	src: url('fonts/avenir/Avenir.ttf') format('truetype');
+	src: url('fonts/avenir/Avenir.ttc') format('truetype');
 }
 
 .prime-font {
