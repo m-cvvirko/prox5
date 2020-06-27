@@ -1,17 +1,18 @@
-@font-face {
+/* @font-face {
 	font-family: 'Avenir';
 	src: url('fonts/avenir_ff/AvenirLTStd-Roman.otf') format('opentype');
+} */
+
+@font-face {
+	font-family: 'Avenir';
+	src: url('fonts/avenir/Avenir.ttf') format('truetype');
 }
-/* 
-file:///Users/admin/__projects/code-challenge/proxify/prox5/assets/css/fonts/avenir_ff/AvenirLTStd-Roman.otf
-url("./fonts/avenir_ff/AvenirLTStd-Black.otf") format("opentype"),
-url("./fonts/avenir_ff/AvenirLTStd-Book.otf") format("opentype"), 
-*/
 
 .prime-font {
 	font-family: Avenir;
 	white-space: nowrap;
-	font-weight: 400;
+	font-weight: 100;
+	font-size: 20px;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
 	width: 463px;
 	border-radius: 48px 0 0 0;
 	background-color: #1f1b33;
-	border: 0.02em solid #eeeeee;
+	/* border: 0.02em solid #eeeeee; */
 }
 section {
 	margin: 0;
@@ -149,7 +150,12 @@ section {
 
 .menu {
 	height: 454px;
+	min-height: 454px;
+	max-height: 454px;
 	width: 176px;
+	min-width: 176px;
+	max-width: 176px;
+	margin-left: 27px;
 }
 
 .divider {
@@ -188,19 +194,26 @@ section {
 } */
 
 .selected-item-bg {
-	height: 51px;
-	width: 175px;
+	/* height: 51px;
+	width: 175px; */
 	opacity: 0.2;
 	border-radius: 15.5px;
 	background-color: #fc8074;
+}
+
+.menu-item {
+	height: 51px;
+	width: 175px;
+	vertical-align: middle;
 }
 
 .your-cart {
 	height: 27px;
 	width: 84px;
 	color: #ffffff;
-	font-family: Avenir;
-	white-space: nowrap;
+	/* font-family: Avenir;
+	white-space: nowrap; */
+	display: inline-block;
 	font-size: 20px;
 	letter-spacing: 0;
 	line-height: 27px;
