@@ -1,0 +1,93 @@
+body {
+	background-color: #000000;
+}
+
+.phone-01 {
+	height: 948px;
+	max-height: 948px;
+	min-height: 948px;
+	width: 463px;
+	max-width: 463px;
+	min-width: 463px;
+	/* border: 0.05em solid #eeeeee; */
+}
+
+.phone-01 > div {
+	height: 948px;
+	margin: 0;
+	margin-right: 23px;
+	/* border: 0.05em solid yellow; */
+}
+
+.cover {
+	background-color: #ffffff;
+	height: 700px;
+	max-height: 700px;
+	min-height: 700px;
+	width: 400px;
+	margin: 0;
+	vertical-align: top;
+	text-align: left;
+	display: inline-block;
+	padding: 0;
+}
+
+.title-bar {
+	height: 33px;
+	width: 160px;
+	margin-top: 43px;
+	margin-left: 36px;
+	color: yellow;
+	/* border: 0.05em solid yellow; */
+}
+
+.title-bar {
+	height: 33px;
+	width: 160px;
+}
+
+.avatar {
+	height: 33px;
+	width: 160px;
+}
+
+.rectangle {
+	height: 4px;
+	width: 30px;
+	border-radius: 3.5px;
+	background-color: #e8e5e5;
+	margin-bottom: 6px;
+}
+
+.rectangle-copy-5 {
+	height: 4px;
+	width: 30px;
+	border-radius: 3.5px;
+	background-color: #e8e5e5;
+	margin-bottom: 7px;
+}
+
+.rectangle-copy-6 {
+	height: 4px;
+	width: 30px;
+	border-radius: 3.5px;
+	background-color: #e8e5e5;
+}
+
+.start {
+	height: 33px;
+	width: 95px;
+	color: #9f9fa0;
+	font-family: Avenir;
+	font-size: 24px;
+	letter-spacing: 5px;
+	line-height: 33px;
+	margin-left: 65px;
+	margin-top: -25px;
+}
+
+.start span {
+	font-weight: 400;
+}
+
+/* https://stackoverflow.com/questions/4502633/how-to-affect-other-elements-when-one-element-is-hovered */

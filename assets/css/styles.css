@@ -2,6 +2,11 @@ body {
   background-color: #dddddd;
 }
 
+.title-bar {
+  height: 33px;
+  width: 160px;
+}
+
 .navbar {
   margin-top: 0.5em;
 }
