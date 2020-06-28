@@ -118,7 +118,7 @@ section {
 	top: 160px;
 	left: 27px;
 	z-index: 100;
-	border: 0.05em solid blue;
+	border: 0.05em solid yellow;
 }
 
 .avater-icon {
@@ -140,6 +140,8 @@ section {
 	padding-left: 30px;
 	padding-top: 12px;
 	font-family: Avenir;
+	font-size: 20px;
+	letter-spacing: 0;
 	white-space: nowrap;
 	color: #FFFFFF;
 }
@@ -157,7 +159,7 @@ section {
 }
 
 .menu-item:nth-child(2) {
-	top: 43px;
+	top: 42px;
 }
 
 .menu-item:nth-child(3) {
@@ -176,12 +178,8 @@ section {
 	border: 0.05em solid red;
 }
 
-.menu-item:nth-child(6) {
-	top: 95px;
-}
-
 .menu-item:nth-child(7) {
-	top: 162px;
+	top: 186px;
 	vertical-align: baseline;
 	border: 0.05em solid red;
 }
@@ -192,8 +190,6 @@ section {
 	height: 27px;
 	width: 41px;
 	color: #FC8074;
-	font-family: Avenir;
-	font-size: 20px;
 	letter-spacing: -0.5px;
 	line-height: 27px;
 	color: red;
@@ -202,20 +198,12 @@ section {
 .your-cart {
 	height: 27px;
 	width: 84px;
-	/* color: #FFFFFF; */
-	font-family: Avenir;
-	font-size: 20px;
-	letter-spacing: 0;
 	line-height: 27px;
 }
 
 .favourites {
 	height: 27px;
 	width: 93px;
-	/* color: #FFFFFF; */
-	font-family: Avenir;
-	font-size: 20px;
-	letter-spacing: 0;
 	line-height: 27px;
 }
 
@@ -223,13 +211,12 @@ section {
 	height: 27px;
 	width: 108px;
 	color: #FFFFFF;
-	font-family: Avenir;
-	font-size: 20px;
-	letter-spacing: 0;
 	line-height: 27px;
 }
 
 .divider {
+	position: relative;
+	top: 134px;
 	box-sizing: border-box;
 	height: 1px;
 	width: 175.5px;
@@ -239,9 +226,5 @@ section {
 .sign-out {
 	height: 27px;
 	width: 80px;
-	color: #ffffff;
-	font-size: 20px;
-	letter-spacing: 0;
 	line-height: 27px;
-	/* margin-left: 30px; */
 }
