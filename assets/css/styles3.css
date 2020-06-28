@@ -1,4 +1,3 @@
-/**** V COMMON HELPERS V ************/
 @font-face {
 	font-family: 'Avenir';
 	src: url('fonts/avenir/Avenir.ttc') format('truetype');
@@ -96,7 +95,6 @@ section {
 	top: 122px;
 	left: 58px;
 	z-index: 100;
-	/* border: 0.05em solid red; */
 }
 
 .viktor {
@@ -127,7 +125,6 @@ section {
 	position: relative;
 	top: 0;
 	left: 20px;
-	/* border: 0.05em solid red; */
 	background-color: rgb(89, 0, 255);
 }
 
