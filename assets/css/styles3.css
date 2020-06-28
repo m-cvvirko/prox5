@@ -81,3 +81,81 @@ section {
 	margin-left: 65px;
 	margin-top: -25px;
 }
+
+/**************/
+
+.open-menu {
+	transform: rotate(-7deg) translate(253px, 6px);
+	border-radius: 48px 0 0 48px;
+}
+
+.hay-avatar {
+	height: 38px;
+	width: 83px;
+	position: absolute;
+	top: 122px;
+	left: 58px;
+	z-index: 100;
+	/* border: 0.05em solid red; */
+}
+
+.viktor {
+	height: 38px;
+	width: 83px;
+	color: #FFFFFF;
+	font-family: Avenir;
+	font-size: 28px;
+	/* font-weight: 900; */
+	font-weight: 800;
+	letter-spacing: 0;
+	line-height: 38px;
+}
+
+.menu {
+	height: 454px;
+	width: 176px;
+	position: absolute;
+	top: 160px;
+	left: 27px;
+	z-index: 100;
+	border: 0.05em solid blue;
+}
+
+.avater-icon {
+	height: 21px;
+	width: 19px;
+	position: relative;
+	top: 0;
+	left: 20px;
+	/* border: 0.05em solid red; */
+	background-color: red;
+}
+
+.menu-item {
+	height: 51px;
+	width: 175px;
+	vertical-align: middle;
+	font-family: Avenir;
+	white-space: nowrap;
+}
+
+.selected-item {
+	height: 51px;
+	width: 175px;
+	opacity: 0.2;
+	border-radius: 15.5px;
+	background-color: #fc8074;
+	color: #fc8074;
+	letter-spacing: -0.5px;
+}
+
+.start {
+	height: 27px;
+	width: 41px;
+	color: #fc8074;
+
+	font-weight: 100;
+	font-size: 20px;
+	letter-spacing: -0.5px;
+	line-height: 27px;
+}
