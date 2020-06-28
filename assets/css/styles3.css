@@ -67,7 +67,7 @@ section {
 	margin-bottom: 7px;
 }
 
-.start {
+.avatar .start {
 	height: 33px;
 	width: 95px;
 	color: #9F9FA0;
@@ -137,25 +137,104 @@ section {
 	vertical-align: middle;
 	font-family: Avenir;
 	white-space: nowrap;
+	color: #FFFFFF;
 }
 
 .selected-item {
-	height: 51px;
-	width: 175px;
+	color: #fc8074;
+	letter-spacing: -0.5px;
+	opacity: 1;
+	color: red;
+}
+
+.selected-item-bg {
 	opacity: 0.2;
 	border-radius: 15.5px;
 	background-color: #fc8074;
-	color: #fc8074;
-	letter-spacing: -0.5px;
 }
 
-.start {
+.menu-item {
+	height: 51px;
+	width: 175px;
+	position: relative;
+	left: 0;
+	margin: 0;
+	padding-left: 30px;
+	padding-top: 12px;
+}
+
+.menu-item:nth-child(2) {
+	top: 43px;
+	border: 0.05em solid red;
+}
+
+.menu-item:nth-child(3) {
+	/* top: (19+51+57)px; */
+	top: 56px;
+	border: 0.05em solid red;
+}
+
+.menu-item:nth-child(4) {
+	top: 89px;
+	border: 0.05em solid red;
+}
+
+.menu-item:nth-child(5) {
+	top: 172px;
+	border: 0.05em solid red;
+}
+
+.menu-item:nth-child(6) {
+	top: 222px;
+
+}
+
+.menu .start {
+	position: relative;
+	z-index: 300;
 	height: 27px;
 	width: 41px;
-	color: #fc8074;
-
-	font-weight: 100;
+	color: #FC8074;
+	font-family: Avenir;
 	font-size: 20px;
 	letter-spacing: -0.5px;
 	line-height: 27px;
+	color: red;
+}
+
+.your-cart {
+	height: 27px;
+	width: 84px;
+	color: #FFFFFF;
+	font-family: Avenir;
+	font-size: 20px;
+	letter-spacing: 0;
+	line-height: 27px;
+}
+
+.favourites {
+	height: 27px;
+	width: 93px;
+	color: #FFFFFF;
+	font-family: Avenir;
+	font-size: 20px;
+	letter-spacing: 0;
+	line-height: 27px;
+}
+
+.your-orders {
+	height: 27px;
+	width: 108px;
+	color: #FFFFFF;
+	font-family: Avenir;
+	font-size: 20px;
+	letter-spacing: 0;
+	line-height: 27px;
+}
+
+.divider {
+	box-sizing: border-box;
+	height: 1px;
+	width: 175.5px;
+	border: 1px solid #84818E;
 }
