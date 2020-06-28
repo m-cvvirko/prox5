@@ -128,29 +128,7 @@ section {
 	top: 0;
 	left: 20px;
 	/* border: 0.05em solid red; */
-	background-color: red;
-}
-
-.menu-item {
-	height: 51px;
-	width: 175px;
-	vertical-align: middle;
-	font-family: Avenir;
-	white-space: nowrap;
-	color: #FFFFFF;
-}
-
-.selected-item {
-	color: #fc8074;
-	letter-spacing: -0.5px;
-	opacity: 1;
-	color: red;
-}
-
-.selected-item-bg {
-	opacity: 0.2;
-	border-radius: 15.5px;
-	background-color: #fc8074;
+	background-color: rgb(89, 0, 255);
 }
 
 .menu-item {
@@ -161,11 +139,25 @@ section {
 	margin: 0;
 	padding-left: 30px;
 	padding-top: 12px;
+	font-family: Avenir;
+	white-space: nowrap;
+	color: #FFFFFF;
+}
+
+.selected-item {
+	color: #fc8074;
+	letter-spacing: -0.5px;
+	opacity: 1;
+}
+
+.selected-item-bg {
+	opacity: 0.2;
+	border-radius: 15.5px;
+	background-color: #fc8074;
 }
 
 .menu-item:nth-child(2) {
 	top: 43px;
-	border: 0.05em solid red;
 }
 
 .menu-item:nth-child(3) {
@@ -175,18 +167,23 @@ section {
 }
 
 .menu-item:nth-child(4) {
-	top: 89px;
+	top: 69px;
 	border: 0.05em solid red;
 }
 
 .menu-item:nth-child(5) {
-	top: 172px;
+	top: 82px;
 	border: 0.05em solid red;
 }
 
 .menu-item:nth-child(6) {
-	top: 222px;
+	top: 95px;
+}
 
+.menu-item:nth-child(7) {
+	top: 162px;
+	vertical-align: baseline;
+	border: 0.05em solid red;
 }
 
 .menu .start {
@@ -205,7 +202,7 @@ section {
 .your-cart {
 	height: 27px;
 	width: 84px;
-	color: #FFFFFF;
+	/* color: #FFFFFF; */
 	font-family: Avenir;
 	font-size: 20px;
 	letter-spacing: 0;
@@ -215,7 +212,7 @@ section {
 .favourites {
 	height: 27px;
 	width: 93px;
-	color: #FFFFFF;
+	/* color: #FFFFFF; */
 	font-family: Avenir;
 	font-size: 20px;
 	letter-spacing: 0;
@@ -237,4 +234,14 @@ section {
 	height: 1px;
 	width: 175.5px;
 	border: 1px solid #84818E;
+}
+
+.sign-out {
+	height: 27px;
+	width: 80px;
+	color: #ffffff;
+	font-size: 20px;
+	letter-spacing: 0;
+	line-height: 27px;
+	/* margin-left: 30px; */
 }
