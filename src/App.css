@@ -132,8 +132,10 @@ section {
 }
 
 .menu-item {
-	height: 51px;
-	width: 175px;
+	/* height: 51px;
+  width: 175px; */
+  height: 39px;
+	width: 145px;
 	position: relative;
 	left: 0;
 	margin: 0;
@@ -154,7 +156,7 @@ section {
 .selected-item {
 	color: #fc8074;
 	letter-spacing: -0.5px;
-	opacity: 1;
+  opacity: 1;
 }
 
 .selected-item-bg {
