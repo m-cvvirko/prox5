@@ -157,6 +157,8 @@ section {
 	color: #fc8074;
 	letter-spacing: -0.5px;
   opacity: 1;
+  z-index: 300;
+  position: relative;
 }
 
 .selected-item-bg {
@@ -165,30 +167,26 @@ section {
 }
 
 .menu .start {
-	position: relative;
-	z-index: 300;
 	width: 41px;
-	color: #FC8074;
-	letter-spacing: -0.5px;
 }
 
-.your-cart {
+.menu .your-cart {
 	width: 84px;
 }
 
-.favourites {
+.menu .favourites {
 	width: 93px;
 }
 
-.your-orders {
+.menu .your-orders {
 	width: 108px;
 }
 
-.sign-out {
+.menu .sign-out {
 	width: 80px;
 }
 
-.divider {
+.menu .divider {
 	position: relative;
 	box-sizing: border-box;
 	height: 1px;
