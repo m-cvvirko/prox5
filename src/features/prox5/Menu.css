@@ -1,9 +1,4 @@
 
-.open-menu {
-	transform: rotate(-7deg) translate(253px, 6px);
-	border-radius: 48px 0 0 48px;
-}
-
 .hay-avatar {
 	height: 38px;
 	width: 83px;
@@ -40,8 +35,9 @@
 	width: 19px;
 	position: relative;
 	top: 0;
-	left: 20px;
-	background-color: rgb(89, 0, 255);
+    left: 20px;
+    z-index: 0;
+	/* background-color: rgb(89, 0, 255); */
 }
 
 .menu-item {

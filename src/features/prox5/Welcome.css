@@ -1,8 +1,17 @@
+/* .open-menu {
+	transform: rotate(-7deg) translate(253px, 6px);
+	border-radius: 48px 0 0 48px;
+} */
+
 .phone-01 {
 	height: 948px;
 	width: 440px;
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    position: relative;
+    z-index: 400;
+    top:0;
+    left:0;
 }
 
 .phone-01:last-of-type {
@@ -24,6 +33,11 @@
 	height: 33px;
 	width: 160px;
 	cursor: pointer;
+}
+
+.avatar:active {
+    transform: rotate(-7deg) translate(253px, 6px);
+	border-radius: 48px 0 0 48px;
 }
 
 .rectangle-copy-6,
