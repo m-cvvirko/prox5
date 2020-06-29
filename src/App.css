@@ -1,3 +1,195 @@
-.App {
-  text-align: center;
+
+@font-face {
+	font-family: 'Avenir';
+	src: url("fonts/avenir/Avenir.ttc") format("truetype");
+}
+
+/* src: url("fonts/avenir/Avenir Next.ttc") format("truetype"); */
+
+body {
+	background-color: #ffffff;
+}
+
+section {
+	margin: 0;
+	padding: 0;
+}
+
+.bg-mask {
+	height: 948px;
+	width: 463px;
+	/* border-radius: 48px 0 0 0; */
+	border-radius: 48px 0 0 48px;
+	background-color: #1F1B33;
+}
+
+.phone-01 {
+	height: 948px;
+	width: 440px;
+	margin: 0;
+	padding: 0;
+}
+
+.phone-01:last-of-type {
+	height: 948px;
+	width: 440px;
+	border-radius: 48px;
+	background-color: #FFFFFF;
+}
+
+.title-bar {
+	height: 33px;
+	width: 160px;
+	position: relative;
+	top: 43px;
+	left: 36px;
+}
+
+.avatar {
+	height: 33px;
+	width: 160px;
+	cursor: pointer;
+}
+
+.rectangle-copy-6,
+.rectangle-copy-5,
+.rectangle {
+	height: 4px;
+	width: 30px;
+	border-radius: 3.5px;
+	background-color: #E8E5E5;
+}
+
+.rectangle {
+	margin-bottom: 6px;
+}
+
+.rectangle-copy-5 {
+	margin-bottom: 7px;
+}
+
+.avatar .start {
+	height: 33px;
+	width: 95px;
+	color: #9F9FA0;
+	font-family: Avenir;
+	font-size: 24px;
+	/* font-weight: 500; */
+	font-weight: 800;
+	letter-spacing: 5px;
+	line-height: 33px;
+	white-space: nowrap;
+	position: relative;
+	margin-left: 65px;
+	margin-top: -25px;
+}
+
+/**************/
+
+.open-menu {
+	transform: rotate(-7deg) translate(253px, 6px);
+	border-radius: 48px 0 0 48px;
+}
+
+.hay-avatar {
+	height: 38px;
+	width: 83px;
+	position: absolute;
+	top: 122px;
+	left: 58px;
+	z-index: 100;
+}
+
+.viktor {
+	height: 38px;
+	width: 83px;
+	color: #FFFFFF;
+	font-family: Avenir;
+	font-size: 28px;
+	/* font-weight: 900; */
+	font-weight: 800;
+	letter-spacing: 0;
+	line-height: 38px;
+}
+
+.menu {
+	height: 454px;
+	width: 176px;
+	position: absolute;
+	top: 160px;
+	left: 27px;
+	z-index: 100;
+	/* border: 0.05em solid yellow; */
+}
+
+.avater-icon {
+	height: 21px;
+	width: 19px;
+	position: relative;
+	top: 0;
+	left: 20px;
+	background-color: rgb(89, 0, 255);
+}
+
+.menu-item {
+	height: 51px;
+	width: 175px;
+	position: relative;
+	left: 0;
+	margin: 0;
+	padding-left: 30px;
+	padding-top: 12px;
+	font-family: Avenir;
+	font-size: 20px;
+	letter-spacing: 0;
+	white-space: nowrap;
+	color: #FFFFFF;
+}
+
+.menu-item div {
+	height: 27px;
+	line-height: 27px;
+}
+
+.selected-item {
+	color: #fc8074;
+	letter-spacing: -0.5px;
+	opacity: 1;
+}
+
+.selected-item-bg {
+	border-radius: 15.5px;
+	background-color: rgba(252, 128, 116, 0.2);
+}
+
+.menu .start {
+	position: relative;
+	z-index: 300;
+	width: 41px;
+	color: #FC8074;
+	letter-spacing: -0.5px;
+}
+
+.your-cart {
+	width: 84px;
+}
+
+.favourites {
+	width: 93px;
+}
+
+.your-orders {
+	width: 108px;
+}
+
+.sign-out {
+	width: 80px;
+}
+
+.divider {
+	position: relative;
+	box-sizing: border-box;
+	height: 1px;
+	width: 175.5px;
+	border: 1px solid #84818E;
 }
