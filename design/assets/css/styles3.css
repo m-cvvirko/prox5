@@ -72,7 +72,8 @@ section {
 	color: #9F9FA0;
 	font-family: Avenir;
 	font-size: 24px;
-	font-weight: 500;
+	/* font-weight: 500; */
+	font-weight: 800;
 	letter-spacing: 5px;
 	line-height: 33px;
 	white-space: nowrap;
