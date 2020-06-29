@@ -4,7 +4,11 @@ import style from './Welcome.css'
 export const Welcome = () => {
     return (
         <>
-        <div className="phone-01 open-menu">
+        <input type="checkbox" id="btnCtrl" />
+        <label className="btn p-0" htmlFor="btnCtrl">
+        {/* <div className="phone-01 open-menu"> */}
+        <section className="welcome">
+        <div className="phone-01">
             <div className="phone-01">
                 <div className="phone-01">
                     <div className="phone-01">
@@ -20,6 +24,8 @@ export const Welcome = () => {
                 </div>
             </div>
         </div>
+        </section>
+        </label>
         </>
     );
 };

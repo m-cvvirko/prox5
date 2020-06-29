@@ -3,6 +3,20 @@
 	border-radius: 48px 0 0 48px;
 } */
 
+/* .avatar:active {
+    transform: rotate(-7deg) translate(253px, 6px);
+	border-radius: 48px 0 0 48px;
+} */
+
+#btnCtrl {
+    display: none;
+}
+
+#btnCtrl:checked+label>section.welcome {
+    transform: rotate(-7deg) translate(253px, 6px);
+	border-radius: 48px 0 0 48px;
+}
+
 .phone-01 {
 	height: 948px;
 	width: 440px;
@@ -33,11 +47,6 @@
 	height: 33px;
 	width: 160px;
 	cursor: pointer;
-}
-
-.avatar:active {
-    transform: rotate(-7deg) translate(253px, 6px);
-	border-radius: 48px 0 0 48px;
 }
 
 .rectangle-copy-6,
