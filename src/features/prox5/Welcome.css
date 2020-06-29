@@ -1,0 +1,60 @@
+.phone-01 {
+	height: 948px;
+	width: 440px;
+	margin: 0;
+	padding: 0;
+}
+
+.phone-01:last-of-type {
+	height: 948px;
+	width: 440px;
+	border-radius: 48px;
+	background-color: #FFFFFF;
+}
+
+.title-bar {
+	height: 33px;
+	width: 160px;
+	position: relative;
+	top: 43px;
+	left: 36px;
+}
+
+.avatar {
+	height: 33px;
+	width: 160px;
+	cursor: pointer;
+}
+
+.rectangle-copy-6,
+.rectangle-copy-5,
+.rectangle {
+	height: 4px;
+	width: 30px;
+	border-radius: 3.5px;
+	background-color: #E8E5E5;
+}
+
+.rectangle {
+	margin-bottom: 6px;
+}
+
+.rectangle-copy-5 {
+	margin-bottom: 7px;
+}
+
+.avatar .start {
+	height: 33px;
+	width: 95px;
+	color: #9F9FA0;
+	font-family: Avenir;
+	font-size: 24px;
+	/* font-weight: 500; */
+	font-weight: 800;
+	letter-spacing: 5px;
+	line-height: 33px;
+	white-space: nowrap;
+	position: relative;
+	margin-left: 65px;
+	margin-top: -25px;
+}
