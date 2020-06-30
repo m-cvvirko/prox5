@@ -1,11 +1,16 @@
 import React from 'react';
-import style from './Menu.css'
+import './Menu.css'
+
+const avatar = {
+    fontWeight: 800,
+    fontFamily: 'Avenir+Next',
+};
 
 export const Menu = () => {
     return (
         <>
         <div className="hay-avatar">
-            <span className="viktor">Viktor</span>
+            <span className="viktor" style={avatar}>Viktor</span>
         </div>
         <div className="menu">
             <div style={{width:'inherit'}}>

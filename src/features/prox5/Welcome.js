@@ -1,5 +1,10 @@
 import React from 'react';
-import style from './Welcome.css'
+import './Welcome.css'
+
+const start = {
+    fontWeight: 500,
+    fontFamily: 'Avenir+Next',
+};
 
 export const Welcome = () => {
     return (
@@ -17,7 +22,7 @@ export const Welcome = () => {
                                 <div className="rectangle"></div>
                                 <div className="rectangle-copy-5"></div>
                                 <div className="rectangle-copy-6"></div>
-                                <div className="start">START</div>
+                                <div className="start" style={start}>START</div>
                             </div>
                         </div>
                     </div>
