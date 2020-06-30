@@ -1,10 +1,13 @@
 
 @font-face {
 	font-family: 'Avenir';
-	src: url("fonts/avenir/Avenir.ttc") format("truetype");
+	src: url("fonts/avenir_ff/AvenirLTStd-Roman.otf") format("opentype");
 }
 
+/* src: url("https://fonts.googleapis.com/css?family=Avenir") format("truetype"); */
+/* src: url("fonts/avenir/Avenir.ttc") format("truetype"); */
 /* src: url("fonts/avenir/Avenir Next.ttc") format("truetype"); */
+/* src: url("fonts/avenir_ff/AvenirLTStd-Roman.otf") format("opentype"); */
 
 body {
 	background-color: #ffffff;
